@@ -97,3 +97,7 @@ a {
 .logo-footer {
 	color: var(--cloud-light);
 }
+.button-filter {
+	background-color: var(--cloud-light);
+	color: var(--iris-active-focused);
+}
