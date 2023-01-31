@@ -29,11 +29,11 @@ a {
 	color: var(--navyblue-shadow);
 }
 .current {
-	color: #4d5ae5;
+	color: var(--iris-active-focused);
 }
 .link-nav:hover,
 .link-nav:focus {
-	color: #404bbf;
+	color: var(--ocean);
 }
 .link-nav:active {
 	color: var(--iris-active-focused);
@@ -44,7 +44,7 @@ a {
 }
 .link-address:hover,
 .link-address:focus {
-	color: #404bbf;
+	color: var(--ocean);
 }
 .list {
 	list-style: none;
@@ -82,10 +82,9 @@ a {
 }
 .button:hover,
 .button:focus {
-	background-color: #404bbf;
+	background-color: var(--ocean);
 }
 .title-second {
-	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
@@ -97,6 +96,9 @@ a {
 	font-size: 20px;
 	line-height: 1.2;
 	color: var(--navyblue-shadow);
+}
+.team {
+	background-color: var(--cloud-light);
 }
 .footer {
 	background-color: var(--navyblue-shadow);
